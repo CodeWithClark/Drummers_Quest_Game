@@ -111,7 +111,7 @@ def game(): # Game Function
 
                 # WIN GAME
                 if len(inventory) == 7:
-                    check_win
+                    check_win()
 
             elif collect_item == 'n':
                 print('\nToo bad.\n')   # Allow user to decline
